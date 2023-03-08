@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.warning {
+  color: red;
+}
+
+.invalid {
+  border: 2px solid red;
+  box-shadow: 2px 2px rgb(187, 105, 105);
+  /* border-radius: 2px; */
+}
+
+input:invalid {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid red;
+  border-radius: 5px;
+}
